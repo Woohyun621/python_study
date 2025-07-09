@@ -3,8 +3,8 @@
 import random
 
 a = ["가위","바위","보"]
-b = random.choice(a)
-
+c = random.randint(1,3)
+b = a[c]
 c = input("가위 바위 보 중 하나를 선택하세요 : ")
 
 print("상대는", b,"를 냈습니다.")
