@@ -36,3 +36,4 @@ while True:
     break
   
 print (f"맞춘 횟수 : {score}번")
+time.sleep(0.5)
